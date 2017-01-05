@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FirebaseExercise</string>
+    <string name="title_activity_chatroom">ActivityChatroom</string>
+    <string name="title_activity_chat_post">ActivityChatPost</string>
+</resources>

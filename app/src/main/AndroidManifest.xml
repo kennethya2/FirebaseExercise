@@ -32,7 +32,19 @@
             android:name=".ActivityChatPost"
             android:label="@string/title_activity_chat_post"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DynamicLinkActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="www.setn.com" android:scheme="http"/>
+                <data android:host="www.setn.com" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>

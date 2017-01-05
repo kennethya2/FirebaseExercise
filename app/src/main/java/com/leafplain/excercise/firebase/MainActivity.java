@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button mFirebaseDBBTN;
     private Button mFirebaseChatRoomBTN;
+    private Button mDynamicLinkBTN;
 
     private AppCompatActivity mContext;
     @Override
@@ -24,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
 
         mFirebaseChatRoomBTN = (Button) findViewById(R.id.firebaseChatRoomBTN);
         mFirebaseChatRoomBTN.setOnClickListener(clickListener);
+
+        mDynamicLinkBTN = (Button) findViewById(R.id.dynamicLinkBTN);
+        mDynamicLinkBTN.setOnClickListener(clickListener);
 
 
         FirebaseDatabase.getInstance().setPersistenceEnabled(true);
@@ -44,6 +48,11 @@ public class MainActivity extends AppCompatActivity {
                     Intent intentChatroom = new Intent();
                     intentChatroom.setClass(mContext, ActivityChatroom.class);
                     mContext.startActivity(intentChatroom);
+                    break;
+                case (R.id.dynamicLinkBTN):
+                    Intent intentDynamicLink = new Intent();
+                    intentDynamicLink.setClass(mContext, DynamicLinkActivity.class);
+                    mContext.startActivity(intentDynamicLink);
                     break;
             }
         }

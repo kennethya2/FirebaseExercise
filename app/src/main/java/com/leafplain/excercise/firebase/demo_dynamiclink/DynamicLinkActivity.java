@@ -1,4 +1,4 @@
-package com.leafplain.excercise.firebase;
+package com.leafplain.excercise.firebase.demo_dynamiclink;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -18,6 +18,8 @@ import com.google.android.gms.appinvite.AppInviteReferral;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.ResultCallback;
+import com.leafplain.excercise.firebase.R;
+
 public class DynamicLinkActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener {
 
 

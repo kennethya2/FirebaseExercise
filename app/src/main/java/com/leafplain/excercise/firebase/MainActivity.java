@@ -7,6 +7,9 @@ import android.view.View;
 import android.widget.Button;
 
 import com.google.firebase.database.FirebaseDatabase;
+import com.leafplain.excercise.firebase.demo_dynamiclink.DynamicLinkActivity;
+import com.leafplain.excercise.firebase.demo_realtimedb.ActivityChatroom;
+import com.leafplain.excercise.firebase.demo_realtimedb.ActivityRealtimeDB;
 
 public class MainActivity extends AppCompatActivity {
 

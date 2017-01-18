@@ -1,4 +1,4 @@
-package com.leafplain.excercise.firebase;
+package com.leafplain.excercise.firebase.demo_realtimedb;
 
 import android.app.Activity;
 import android.content.Context;
@@ -27,6 +27,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ServerValue;
 import com.google.firebase.database.ValueEventListener;
+import com.leafplain.excercise.firebase.R;
 import com.leafplain.excercise.firebase.datainfo.DataInfo;
 import com.leafplain.excercise.firebase.util.ConnectUtil;
 import com.leafplain.excercise.firebase.util.DebugLog;

@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.google.firebase.database.DatabaseReference;
-import com.leafplain.excercise.firebase.ActivityChatroom;
+import com.leafplain.excercise.firebase.demo_realtimedb.ActivityChatroom;
 import com.leafplain.excercise.firebase.R;
 import com.leafplain.excercise.firebase.datainfo.DataInfo;
 

@@ -21,20 +21,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ActivityRealtimeDB"
+            android:name=".demo_realtimedb.ActivityRealtimeDB"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ActivityChatroom"
+            android:name=".demo_realtimedb.ActivityChatroom"
             android:label="@string/title_activity_chatroom"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ActivityChatPost"
+            android:name=".demo_realtimedb.ActivityChatPost"
             android:label="@string/title_activity_chat_post"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".DynamicLinkActivity"
+            android:name=".demo_dynamiclink.DynamicLinkActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>

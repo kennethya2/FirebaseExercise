@@ -121,12 +121,14 @@ public class ActivityRealtimeDB  extends AppCompatActivity {
 
 
         DebugLog.d(TAG,"setUser");
-        String key = (countKey++)+"";
+//        String key = (countKey++)+"";
+//        String key = mDatabase.push().getKey();
+        String key = name;
         keyTV.setText(key);
-        DebugLog.d(TAG,"key:"+key);
+//        DebugLog.d(TAG,"key:"+key);
         DataInfo.User user = new DataInfo.User(name, note);
         mDatabase.child(key).setValue(user);
-
+//        mDatabase.push().setValue(user);
 
     }
 
@@ -196,7 +198,12 @@ public class ActivityRealtimeDB  extends AppCompatActivity {
 
     private void query2(){
         DebugLog.d(TAG,"query2");
-        final Query queryRef = mDatabase.orderByKey().endAt("5").limitToLast(2);
+        final String key = keyTV.getText().toString();
+        if (TextUtils.isEmpty(key)) {
+            keyTV.setError(REQUIRED);
+            return;
+        }
+        final Query queryRef = mDatabase.orderByKey().endAt(key).limitToLast(2);
 //        queryRef.addChildEventListener(mChildEventListener);
 //        new Handler().postDelayed(new Runnable() {
 //            @Override

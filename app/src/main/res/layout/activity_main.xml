@@ -41,6 +41,13 @@
                 android:text="dynamicLink"
                 />
 
+            <Button
+                android:id="@+id/remoteConfigABTestBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remote_Config_AB_Test"
+                />
+
         </LinearLayout>
     </ScrollView>
 

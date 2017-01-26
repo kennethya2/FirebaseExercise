@@ -10,12 +10,14 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.leafplain.excercise.firebase.demo_dynamiclink.DynamicLinkActivity;
 import com.leafplain.excercise.firebase.demo_realtimedb.ActivityChatroom;
 import com.leafplain.excercise.firebase.demo_realtimedb.ActivityRealtimeDB;
+import com.leafplain.excercise.firebase.demo_remoteconfig.RemoteConfigABTest;
 
 public class MainActivity extends AppCompatActivity {
 
     private Button mFirebaseDBBTN;
     private Button mFirebaseChatRoomBTN;
     private Button mDynamicLinkBTN;
+    private Button mRemoteConfigABTestBTN;
 
     private AppCompatActivity mContext;
     @Override
@@ -31,6 +33,9 @@ public class MainActivity extends AppCompatActivity {
 
         mDynamicLinkBTN = (Button) findViewById(R.id.dynamicLinkBTN);
         mDynamicLinkBTN.setOnClickListener(clickListener);
+
+        mRemoteConfigABTestBTN = (Button) findViewById(R.id.remoteConfigABTestBTN);
+        mRemoteConfigABTestBTN.setOnClickListener(clickListener);
 
 
         FirebaseDatabase.getInstance().setPersistenceEnabled(true);
@@ -56,6 +61,12 @@ public class MainActivity extends AppCompatActivity {
                     Intent intentDynamicLink = new Intent();
                     intentDynamicLink.setClass(mContext, DynamicLinkActivity.class);
                     mContext.startActivity(intentDynamicLink);
+                    break;
+
+                case (R.id.remoteConfigABTestBTN):
+                    Intent intentRemoteConfigABTest = new Intent();
+                    intentRemoteConfigABTest.setClass(mContext, RemoteConfigABTest.class);
+                    mContext.startActivity(intentRemoteConfigABTest);
                     break;
             }
         }

@@ -3,6 +3,8 @@
     <string name="title_activity_chatroom">ActivityChatroom</string>
     <string name="title_activity_chat_post">ActivityChatPost</string>
 
+    <string name="title_activity_remote_config_ab_test">RemoteConfigABTest</string>
+
 
     <!--
   Your app code, see:

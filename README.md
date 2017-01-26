@@ -63,7 +63,7 @@ ActivityRealtimeDB (CRUD 操作)
 ActivityChatroom
 
 <img src="https://s3-ap-northeast-1.amazonaws.com/marktdown/FirebaseExercise/firebase-chatroom-list.png"  width="216" height="384"">
-<img src="	https://s3-ap-northeast-1.amazonaws.com/marktdown/FirebaseExercise/firebase-chatroom-add.png"  width="216" height="384"">
+<img src="https://s3-ap-northeast-1.amazonaws.com/marktdown/FirebaseExercise/firebase-chatroom-add.png"  width="216" height="384"">
 <img src="https://s3-ap-northeast-1.amazonaws.com/marktdown/FirebaseExercise/firebase-chatroom-nickname.png"  width="216" height="384">
 
 #### 2. 聊天頁面 

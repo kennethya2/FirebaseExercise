@@ -13,7 +13,7 @@ Firebase Exercise 入口
 
 #### 4. Remote Config For A/B Test
 
-<img src="https://s3-ap-northeast-1.amazonaws.com/marktdown/FirebaseExercise/firebase-ManActivity.png?raw=true"  width="216" height="384"">
+<img src="https://raw.githubusercontent.com/kennethya2/FirebaseExercise/master/images/firebase-ManActivity.png" width="220">
 
 <pre><code>
 @Override
@@ -52,7 +52,7 @@ Firebase Exercise 入口
 
 ActivityRealtimeDB (CRUD 操作)
 
-<img src="https://s3-ap-northeast-1.amazonaws.com/marktdown/FirebaseExercise/firebase-ActivityRealtimeDB.png"  width="216" height="384"">
+<img src="https://raw.githubusercontent.com/kennethya2/FirebaseExercise/master/images/firebase-ActivityRealtimeDB.png" width="220">
 
 
 
@@ -62,15 +62,15 @@ ActivityRealtimeDB (CRUD 操作)
 #### 1. 聊天室列表 
 ActivityChatroom
 
-<img src="https://s3-ap-northeast-1.amazonaws.com/marktdown/FirebaseExercise/firebase-chatroom-list.png"  width="216" height="384"">
-<img src="https://s3-ap-northeast-1.amazonaws.com/marktdown/FirebaseExercise/firebase-chatroom-add.png"  width="216" height="384"">
-<img src="https://s3-ap-northeast-1.amazonaws.com/marktdown/FirebaseExercise/firebase-chatroom-nickname.png"  width="216" height="384">
+<img src="https://raw.githubusercontent.com/kennethya2/FirebaseExercise/master/images/firebase-chatroom-list.png" width="220">
+<img src="https://raw.githubusercontent.com/kennethya2/FirebaseExercise/master/images/firebase-chatroom-add.png"  width="220">
+<img src="https://raw.githubusercontent.com/kennethya2/FirebaseExercise/master/images/firebase-chatroom-nickname.png" width="220">
 
 #### 2. 聊天頁面 
 ActivityChatPost
 
-<img src="https://s3-ap-northeast-1.amazonaws.com/marktdown/FirebaseExercise/firebase-chat-alice.png"  width="216" height="384">
-<img src="https://s3-ap-northeast-1.amazonaws.com/marktdown/FirebaseExercise/firebase-chat-kenneth.png"  width="216" height="384">
+<img src="https://raw.githubusercontent.com/kennethya2/FirebaseExercise/master/images/firebase-chat-alice.png" width="220">
+<img src="https://raw.githubusercontent.com/kennethya2/FirebaseExercise/master/images/firebase-chat-kenneth.png" width="220">
 
 
 ### Demo 3. Dynamic Link Demo (Deep Link Invatation Recieve)
@@ -78,14 +78,14 @@ ActivityChatPost
 
 DynamicLinkActivity (點擊外部連結 觸發deeplink)
 
-<img src="https://s3-ap-northeast-1.amazonaws.com/marktdown/FirebaseExercise/firebase-dynamiclink-link.png"  width="216" height="384"">
-<img src="https://s3-ap-northeast-1.amazonaws.com/marktdown/FirebaseExercise/firebase-dynamiclink-deeplink.png"  width="216" height="384"">
+<img src="https://raw.githubusercontent.com/kennethya2/FirebaseExercise/master/images/firebase-dynamiclink-link.png" width="220" >
+<img src="https://raw.githubusercontent.com/kennethya2/FirebaseExercise/master/images/firebase-dynamiclink-deeplink.png" width="220">
 
 
 ### Demo 4. Remote Config For A/B Test
 ----
 
-<img src="https://s3-ap-northeast-1.amazonaws.com/marktdown/FirebaseExercise/firebase-RemoteConfigABTest-default.png"  width="216" height="384"">
-<img src="https://s3-ap-northeast-1.amazonaws.com/marktdown/FirebaseExercise/firebase-RemoteConfigABTest-a.png"  width="216" height="384"">
-<img src="https://s3-ap-northeast-1.amazonaws.com/marktdown/FirebaseExercise/firebase-RemoteConfigABTest-b.png"  width="216" height="384"">
+<img src="https://raw.githubusercontent.com/kennethya2/FirebaseExercise/master/images/firebase-RemoteConfigABTest-default.png" width="220">
+<img src="https://raw.githubusercontent.com/kennethya2/FirebaseExercise/master/images/firebase-RemoteConfigABTest-a.png" width="220">
+<img src="https://raw.githubusercontent.com/kennethya2/FirebaseExercise/master/images/firebase-RemoteConfigABTest-b.png" width="220">
 
